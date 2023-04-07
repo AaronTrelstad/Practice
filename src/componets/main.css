@@ -1,0 +1,38 @@
+h1 {
+    font-size: 10rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+h3 {
+    font-size: 2rem; 
+}
+
+
+.box1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.minibox {
+    background-color: rgb(107, 107, 226);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.minibox:hover {
+    background-color:rgb(61, 61, 207);
+    border-color: black;
+    cursor: default;
+}
