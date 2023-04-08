@@ -1,6 +1,7 @@
 h1 {
     font-size: 10rem;
     text-align: center;
+    line-height: 10px;
 }
 
 h2 {
@@ -8,31 +9,35 @@ h2 {
     text-align: center;
 }
 
+
 body {
     background-color: beige;
 }
 
 h3 {
-    font-size: 2rem; 
+    font-size: 1rem; 
 }
-
 
 .box1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    padding:2rem;
+    width: 95%;
 }
 
 .minibox {
     background-color: rgb(107, 107, 226);
-    border: 1px solid transparent;
+    border: 3px solid;
+    border-color: rgb(107, 107, 226);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
 }
 
 .minibox:hover {
-    background-color:rgb(61, 61, 207);
+    transition-duration: 0.1s;
+    border: 3px solid;
     border-color: black;
     cursor: default;
 }

@@ -1,10 +1,19 @@
 import React from 'react';
-import Background from './componets/main.jsx'
+import Home from './components/main.jsx';
+import Logs from './components/logs.jsx'
+import {
+    Routes,
+    Route
+  } from "react-router-dom";
 
 const App = () => {
     return (
         <>
-            <Background/>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/history" element={<Logs />} />
+            </Routes>
         </>
     )
 }
