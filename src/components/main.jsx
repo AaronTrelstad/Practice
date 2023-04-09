@@ -24,7 +24,7 @@ const Home = () => {
                         Future Updates
                     </h3>
                     <p>
-                        Add multiple pages
+                        Add backend JavaScript features
                     </p>
                 </arcticle>
             </div>

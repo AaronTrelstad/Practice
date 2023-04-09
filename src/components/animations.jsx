@@ -8,6 +8,10 @@ const Animations = () => {
             <h1>ANIMATIONS</h1>
             <h2>BY: AARON TRELSTAD</h2>
             <Nav/>
+            <div class='platform'>
+                <div class='ball'></div>   
+                <div class='shadow'></div>
+            </div>
         </>
     )
 }
