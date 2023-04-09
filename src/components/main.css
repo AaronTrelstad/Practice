@@ -9,11 +9,6 @@ h2 {
     text-align: center;
 }
 
-
-body {
-    background-color: beige;
-}
-
 h3 {
     font-size: 1rem; 
 }
@@ -41,5 +36,5 @@ h3 {
     border-color: black;
     cursor: default;
     background-color:aquamarine;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }

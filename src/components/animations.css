@@ -30,20 +30,20 @@ h2 {
   
   h2 {
     padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 100%, 80%) 10%, hsl(0, 0%, 30%) 20%);
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 100%, 69%) 15%, hsl(0, 0%, 30%) 30%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
   }
   
-  @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 600px;
-    }
-    100% {
-      background-position: 1000px;
-    }
+@keyframes shine {
+  0% {
+    background-position: 0;
   }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 1000px;
+  }
+}
