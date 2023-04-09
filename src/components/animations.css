@@ -1,0 +1,49 @@
+body {
+    background-color: black
+}
+
+h1 {
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    color: #19c9ff;
+    text-shadow: 0 0 10px #51808f, 0 0 20px #4e7d8c, 0 0 40px #598b9a;
+    font-size:70px;
+}
+
+h1:hover {
+    text-shadow: 0 0 10px #123844, 0 0 20px #123844, 0 0 40px #123844;
+    font-size:70px;
+    transition: 1s ease-out;
+}
+
+h2 {
+    color: hsl(0, 0%, 28%);
+    font-size: 30px;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 100%, 80%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 1000px;
+    }
+  }

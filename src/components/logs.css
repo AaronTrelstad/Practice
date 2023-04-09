@@ -1,3 +1,27 @@
-.entry {
-    margin: 1rem
+p {
+    color: white;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-family: "Anonymous Pro", monospace;
 }
+
+p1 {
+    color:white;
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-family: "Anonymous Pro", monospace;
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    animation: blinkTextCursor 530ms infinite;
+  }
+  
+@keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }

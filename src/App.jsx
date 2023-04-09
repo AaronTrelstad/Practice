@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './components/main.jsx';
-import Logs from './components/logs.jsx'
+import Logs from './components/logs.jsx';
+import Animations from './components/animations.jsx';
 import {
     Routes,
     Route
@@ -13,6 +14,7 @@ const App = () => {
                 <Route index element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/history" element={<Logs />} />
+                <Route path="/animations" element={<Animations />} />
             </Routes>
         </>
     )
