@@ -13,6 +13,9 @@ const Nav = () => {
             <button className='button'>
                 <a href="/animations">Animations</a>
             </button>
+            <button className='button'>
+                <a href="/game">Games</a>
+            </button>
         </>
     )
 }
