@@ -1,6 +1,7 @@
 import React from 'react'
 import './main.css';
 import Nav from './nav.jsx';
+import Hello from './hello.jsx'
 
 const Home = () => {
     return (
@@ -27,6 +28,9 @@ const Home = () => {
                         Add backend JavaScript features
                     </p>
                 </arcticle>
+                <div>
+                    <Hello/>
+                </div>
             </div>
         </>
         

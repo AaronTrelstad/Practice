@@ -1,0 +1,14 @@
+h6 {
+    font-size: 2rem;
+    color: rgb(216, 216, 20);
+    margin-top: 0px;
+}
+
+h7 {
+    font-size: 2rem;
+    color: rgb(216, 216, 20);
+}
+
+input {
+    margin: 20px;
+}

@@ -5,17 +5,19 @@ body {
 
 h1 {
     font-weight: bold;
+    text-align: center;
     font-family: monospace;
     letter-spacing: 7px;
     cursor: pointer;
     color: #19c9ff;
     text-shadow: 0 0 10px #51808f, 0 0 20px #4e7d8c, 0 0 40px #598b9a;
-    font-size:70px;
+    font-size:80px;
+    margin-bottom: 0px;
 }
 
 h1:hover {
     text-shadow: 0 0 10px #123844, 0 0 20px #123844, 0 0 40px #123844;
-    font-size:70px;
+    font-size:80px;
     transition: 1s ease-out;
 }
 
@@ -56,10 +58,10 @@ h2 {
   background-color: white;
   gap: 1rem;
   padding: 10rem;
-  width: 50rem;
+  width: 65%;
   height: 8rem;
   border-radius: 10px;
-  margin: 10%;
+  margin: 5%;
 }
 
 .ball {
@@ -80,7 +82,7 @@ h2 {
   }
   30%{
     height: 50px;
-    width: 40px;
+    width: 45px;
   }
   50% {
     height: 40px;
@@ -107,8 +109,8 @@ h2 {
   width: 80px;
   border-radius: 50%;
   position: absolute;
-  top: 420px;
-  left: 505px;
+  top: 95%;
+  left: 45%;
   animation: shrink 1s infinite;
 }
 
